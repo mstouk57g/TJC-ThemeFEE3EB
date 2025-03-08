@@ -4,8 +4,17 @@
     "version": "1.0",
     "content_scripts": [
         {
+<<<<<<< HEAD
+            "matches": ["https://center.tjmtr.world/dashboard/*"],
+            "css": ["dashboard/base.css"]
+        },
+        {
+            "matches": ["https://center.tjmtr.world/auth/*"],
+            "css": ["auth/base.css"]
+=======
             "matches": ["https://center.tjmtr.world/*"],
             "css": ["content.css"]
+>>>>>>> d4c4ae139dc166ead87520777498628fb3c21b0e
         }
     ]
 }

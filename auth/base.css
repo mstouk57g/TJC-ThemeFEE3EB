@@ -1,0 +1,25 @@
+button[type="submit"] {
+    background-color: #fb7299 !important;
+    border-color: transparent !important;
+    color: white !important;
+}
+
+button[type="submit"]:hover {
+    background-color: #f47498 !important;
+}
+
+button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(251, 114, 152, 0.5) !important;
+}
+/* 改变文本框聚焦时的样式 */
+input:focus, textarea:focus {
+    border-color: #fb7299 !important;  /* 设置边框为粉色 */
+    outline: none !important;  /* 移除默认的外部轮廓 */
+    box-shadow: 0 0 0 2px rgba(251, 114, 152, 0.5) !important; /* 粉色的高亮阴影 */
+}
+
+/* 输入框的占位符文字颜色（可选） */
+input::placeholder, textarea::placeholder {
+    color: #d785a5; /* 设置占位符文字为稍淡的粉色 */
+}
