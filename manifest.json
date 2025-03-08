@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "修改网站主题",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://center.tjmtr.world/*"],
+            "css": ["content.css"]
+        }
+    ]
+}
